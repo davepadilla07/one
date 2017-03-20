@@ -29,8 +29,59 @@ public class one extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one);
 
-        
+        cajaPNombre = (EditText)findViewById(R.id.txtPNombre);
+        cajaSNombre = (EditText)findViewById(R.id.txtSNombre);
+        cajaPApellido = (EditText)findViewById(R.id.txtPApellido);
+        cajaSApellido = (EditText)findViewById(R.id.txtSApellido);
+        cajaEdad = (EditText)findViewById(R.id.txtEdad);
+        cajaSexo = (EditText)findViewById(R.id.txtSexo);
+
+        i = new Intent(this,Mostrar.class);
+
+        b = new Bundle();
     }
+
+
+    public void mostrar(View v){
+        String pnomb, snomb, papell, sapell, eda, sex;
+        if(validar()){
+            
+        }
+
+    }
+
+    public  boolean validar(){
+
+        if(cajaPNombre.getText().toString().isEmpty()){
+            cajaPNombre.setError("Por favor digite su primer nombre");
+            return false;
+        }
+        if(cajaSNombre.getText().toString().isEmpty()){
+            cajaSNombre.setError("Por favor digite su segundo nombre");
+            return false;
+        }
+        if(cajaPApellido.getText().toString().isEmpty()){
+            cajaPApellido.setError("Por favor digite su primer apellido");
+            return false;
+        }
+        if(cajaSApellido.getText().toString().isEmpty()){
+            cajaSApellido.setError("Por favor digite su segundo apellido");
+            return false;
+        }
+        if(cajaEdad.getText().toString().isEmpty()){
+            cajaEdad.setError("Por favor digite su edad");
+            return false;
+        }
+        if(cajaSexo.getText().toString().isEmpty()){
+            cajaSexo.setError("Digite su sexo");
+            return false;
+        }
+        return true;
+    }
+
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -38,6 +89,9 @@ public class one extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_one, menu);
         return true;
     }
+
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

@@ -12,4 +12,5 @@
     <string name="sexo">Sexo</string>
     <string name="mostrar">MOSTRAR</string>
     <string name="borrar">BORRAR</string>
+    <string name="registrado">Registrado</string>
 </resources>
