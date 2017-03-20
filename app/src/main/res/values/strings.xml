@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">one</string>
     <string name="action_settings">Settings</string>
+    <string name="RegistroPersonas">Registro de personas</string>
+    <string name="registropersonas">Registro De Personas</string>
+    <string name="registro">Registro de Personas</string>
+    <string name="pnombre">Primer Nombre</string>
+    <string name="snombre">Segundo Nombre</string>
+    <string name="papellido">Primer Apellido</string>
+    <string name="sapellido">Segundo Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="sexo">Sexo</string>
+    <string name="mostrar">MOSTRAR</string>
+    <string name="borrar">BORRAR</string>
 </resources>

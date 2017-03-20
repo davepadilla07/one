@@ -23,8 +23,81 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
-                android:textAlignment="center" />
+                android:fontFamily="sans-serif"
+                android:text="@string/registro"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/pnombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtSNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/snombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtPApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/papellido"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtSApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/sapellido"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/edad"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtSexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/sexo"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cmdMBoton"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.28"
+                    android:text="@string/mostrar" />
+
+                <Button
+                    android:id="@+id/cmdBBoton"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.39"
+                    android:text="@string/borrar" />
+            </LinearLayout>
+
         </LinearLayout>
     </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>
