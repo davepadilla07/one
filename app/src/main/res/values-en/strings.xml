@@ -13,4 +13,11 @@
     <string name="sapellido">Second Surname</string>
     <string name="snombre">Second Name</string>
     <string name="sexo">Sex</string>
+    <string name="error_1">Please enter your first name</string>
+    <string name="error_2">Please enter your second name</string>
+    <string name="error_3">Please enter your first surname</string>
+    <string name="error_4">Please enter your second surname</string>
+    <string name="error_5">Please enter your age</string>
+    <string name="error_6">Please enter your sex</string>
+    <string name="action_settings">something</string>
 </resources>

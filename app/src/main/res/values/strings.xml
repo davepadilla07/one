@@ -13,4 +13,11 @@
     <string name="mostrar">MOSTRAR</string>
     <string name="borrar">BORRAR</string>
     <string name="registrado">Registrado</string>
+    <string name="error_1">Por favor digite su primer nombre</string>
+    <string name="error_2">Por favor digite su segundo nombre</string>
+    <string name="error_3">Por favor digite su primer apellido</string>
+    <string name="error_4">Por favor digite su segundo apellido</string>
+    <string name="error_5">Por favor digite su edad</string>
+    <string name="error_6">Por favor digite su sexo</string>
+
 </resources>

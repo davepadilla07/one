@@ -69,21 +69,13 @@ public class one extends AppCompatActivity {
     }
 
     public void borrar(View v){
-        String pnomb, snomb, papell, sapell, eda, sex;
 
-        pnomb = cajaPNombre.getText().toString();
-        snomb = cajaSNombre.getText().toString();
-        papell = cajaPApellido.getText().toString();
-        sapell = cajaSApellido.getText().toString();
-        eda = cajaEdad.getText().toString();
-        sex = cajaSexo.getText().toString();
-
-        pnomb = "";
-        snomb = "";
-        papell = "";
-        sapell = "";
-        eda = "";
-        sex = "";
+        cajaPNombre.setText("");
+        cajaSNombre.setText("");
+        cajaPApellido.setText("");
+        cajaSApellido.setText("");
+        cajaEdad.setText("");
+        cajaSexo.setText("");
 
 
     }
@@ -91,27 +83,27 @@ public class one extends AppCompatActivity {
     public  boolean validar(){
 
         if(cajaPNombre.getText().toString().isEmpty()){
-            cajaPNombre.setError("Por favor digite su primer nombre");
+            cajaPNombre.setError(getResources().getString(R.string.error_1));
             return false;
         }
         if(cajaSNombre.getText().toString().isEmpty()){
-            cajaSNombre.setError("Por favor digite su segundo nombre");
+            cajaSNombre.setError(getResources().getString(R.string.error_2));
             return false;
         }
         if(cajaPApellido.getText().toString().isEmpty()){
-            cajaPApellido.setError("Por favor digite su primer apellido");
+            cajaPApellido.setError(getResources().getString(R.string.error_3));
             return false;
         }
         if(cajaSApellido.getText().toString().isEmpty()){
-            cajaSApellido.setError("Por favor digite su segundo apellido");
+            cajaSApellido.setError(getResources().getString(R.string.error_4));
             return false;
         }
         if(cajaEdad.getText().toString().isEmpty()){
-            cajaEdad.setError("Por favor digite su edad");
+            cajaEdad.setError(getResources().getString(R.string.error_5));
             return false;
         }
         if(cajaSexo.getText().toString().isEmpty()){
-            cajaSexo.setError("Digite su sexo");
+            cajaSexo.setError(getResources().getString(R.string.error_6));
             return false;
         }
         return true;
