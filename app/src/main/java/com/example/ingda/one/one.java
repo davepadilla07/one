@@ -68,6 +68,26 @@ public class one extends AppCompatActivity {
 
     }
 
+    public void borrar(View v){
+        String pnomb, snomb, papell, sapell, eda, sex;
+
+        pnomb = cajaPNombre.getText().toString();
+        snomb = cajaSNombre.getText().toString();
+        papell = cajaPApellido.getText().toString();
+        sapell = cajaSApellido.getText().toString();
+        eda = cajaEdad.getText().toString();
+        sex = cajaSexo.getText().toString();
+
+        pnomb = "";
+        snomb = "";
+        papell = "";
+        sapell = "";
+        eda = "";
+        sex = "";
+
+
+    }
+
     public  boolean validar(){
 
         if(cajaPNombre.getText().toString().isEmpty()){
