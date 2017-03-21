@@ -2,4 +2,15 @@
 <resources>
     <string name="app_name">one</string>
     <string name="RegistroPersonas">People Registration</string>
+    <string name="borrar">ERASE</string>
+    <string name="edad">Age</string>
+    <string name="mostrar">SHOW</string>
+    <string name="papellido">First Surname</string>
+    <string name="pnombre">First Name</string>
+    <string name="registrado">Registered</string>
+    <string name="registro">People registration</string>
+    <string name="registropersonas">People Registration</string>
+    <string name="sapellido">Second Surname</string>
+    <string name="snombre">Second Name</string>
+    <string name="sexo">Sex</string>
 </resources>

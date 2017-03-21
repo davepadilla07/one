@@ -45,7 +45,25 @@ public class one extends AppCompatActivity {
     public void mostrar(View v){
         String pnomb, snomb, papell, sapell, eda, sex;
         if(validar()){
-            
+
+            pnomb = cajaPNombre.getText().toString();
+            snomb = cajaSNombre.getText().toString();
+            papell = cajaPApellido.getText().toString();
+            sapell = cajaSApellido.getText().toString();
+            eda = cajaEdad.getText().toString();
+            sex = cajaSexo.getText().toString();
+
+            b.putString("PNombre", pnomb);
+            b.putString("SNombre", snomb);
+            b.putString("PApellido", papell);
+            b.putString("SApellido", sapell);
+            b.putString("Edad", eda);
+            b.putString("Sexo", sex);
+
+            i.putExtras(b);
+
+            startActivity(i);
+
         }
 
     }
