@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">one</string>
     <string name="RegistroPersonas">People Registration</string>
-    <string name="borrar">ERASE</string>
+    <string name="borrar">CLEAR</string>
     <string name="edad">Age</string>
     <string name="mostrar">SHOW</string>
     <string name="papellido">First Surname</string>
@@ -20,4 +20,8 @@
     <string name="error_5">Please enter your age</string>
     <string name="error_6">Please enter your sex</string>
     <string name="action_settings">something</string>
+    <string name="registro_p">Yor are already registered</string>
+    <string name="saludo_p1">Hola</string>
+    <string name="saludo_p2">Tu edad es</string>
+    <string name="saludo_p3">Tu genero es</string>
 </resources>

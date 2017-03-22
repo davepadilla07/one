@@ -19,5 +19,8 @@
     <string name="error_4">Por favor digite su segundo apellido</string>
     <string name="error_5">Por favor digite su edad</string>
     <string name="error_6">Por favor digite su sexo</string>
-
+    <string name="saludo_p1">Hola</string>
+    <string name="saludo_p2">Tu edad es</string>
+    <string name="saludo_p3">Tu genero es</string>
+    <string name="registro_p">Ya estas registrado!</string>
 </resources>
