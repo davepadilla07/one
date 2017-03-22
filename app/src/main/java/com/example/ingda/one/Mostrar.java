@@ -27,7 +27,8 @@ public class Mostrar extends AppCompatActivity {
         sex = b.getString("Sexo");
         res = this.getResources();
 
-        aux = getResources().getString(R.string.saludo_p1)+" "+pnomb+" "+snomb+" "+papell+" "+sapell+" "+getResources().getString(R.string.saludo_p2)+" "+eda+" "+getResources().getString(R.string.saludo_p3)+" "+sex+", "+getResources().getString(R.string.registro_p);
+        aux = getResources().getString(R.string.saludo_p1)+" "+pnomb+" "+snomb+" "+papell+" "+sapell+", "+getResources().getString(R.string.saludo_p2)+" "+eda+", "+getResources().getString(R.string.saludo_p3)+" "+sex+", "+getResources().getString(R.string.registro_p);
+
         mostrar.setText(aux);
 
     }

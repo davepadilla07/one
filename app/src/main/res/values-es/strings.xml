@@ -21,7 +21,7 @@
     <string name="snombre">Segundo Nombre</string>
     <string name="action_settings">algo</string>
     <string name="registro_p">Ya estas registrado!</string>
-    <string name="saludo_p1">Hi</string>
-    <string name="saludo_p2">Your age is</string>
-    <string name="saludo_p3">Your gender is</string>
+    <string name="saludo_p1">Hola</string>
+    <string name="saludo_p2">Tu edad es</string>
+    <string name="saludo_p3">Tu genero es</string>
 </resources>

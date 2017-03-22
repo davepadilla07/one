@@ -71,6 +71,7 @@ public class one extends AppCompatActivity {
     public void borrar(View v){
 
         cajaPNombre.setText("");
+        cajaPNombre.requestFocus();
         cajaSNombre.setText("");
         cajaPApellido.setText("");
         cajaSApellido.setText("");
